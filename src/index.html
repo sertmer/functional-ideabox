@@ -1,13 +1,35 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8"/>
-    <title>Functional Ideabox</title>
-    <link rel="stylesheet" href="index.css" />
-    <script type="module" src="index.js"></script>
-    <script type="module" src="index-test.js"></script>
-  </head>
-  <body>
-    <h1>Hello, World!</h1>
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Functional Ideabox</title>
+  <link rel="stylesheet" href="index.css" />
+  <script type="module" src="ideaBox.js"></script>
+  <script type="module" src="index-test.js"></script>
+  <script type="module" src="dom-updates.js"></script>
+</head>
+
+<body>
+  <aside>
+    <h1>IDEABOX!</h1>
+    <h2>Filter starred ideas!</h2>
+    <button id="filter" name="filter">Show Starred Ideas</button>
+  </aside>
+  <main>
+    <section class="form">
+    <form>
+      <input type='text' id="title" name="title" placeholder="Enter the Idea Title"></input>
+      <input type="text" id='body' name="body" placeholder="Enter the full Idea"></input>
+      <button name="submit" id="submit">Save Idea</button>
+    </form>
+    <input type="text" id="searchValue" name="search" placeholder="Search for an Idea" ></input>
+    <button type="submit" id="searchButton" name="searchButton">GO!</button>
+  </section>
+    <section id="ideas">
+
+    </section>
+  </main>
+</body>
+
 </html>
