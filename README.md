@@ -12,6 +12,7 @@ Looking through your code, [where] were you able to:
 I am unsure, I still feel pretty fuzzy on currying
 - Make use of Composition?
 I am also unsure, Still fuzzy on this one too
+What about recursion? what benefits are provided over using iterators?
 
 
 How did you go about creating your data model? Where is it in your code?
