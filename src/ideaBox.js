@@ -12,10 +12,6 @@ const ideaBox = () => {
   }
 
   // const deleteIdea = (id) => {
-  //   const ideas = getIdeas()
-  //   const ideaToDelete = ideas.find((idea => idea.id === id))
-  //   const index = ideas.indexOf(ideaToDelete)
-  //   const updatedIdeas = ideas.splice((index, 1))
 
   // }
 
